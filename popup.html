@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    button {
+      color: #fff;
+      background-color: transparent;
+      outline: 0;
+      transition: background-color 0.3s ease;
+      font-family: 'Ubuntu', sans-serif;
+      border: 0;
+      border-radius: 20px;
+      padding: 7.5px 7.5px 7.5px 7.5px;
+      font-size: 1em;
+      background-color: #e74c3c;
+    }
+
+    button:hover {
+      background-color: darken(#e74c3c, 10);
+    }
+
+    button:active {
+      box-shadow: inset 0 0 100px darken(#e74c3c, 20);
+    }
+  </style>
+  <body style="width: 123px;">
+    <button id="delete">Delete workflow run</button>
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>
