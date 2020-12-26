@@ -3,4 +3,4 @@ document.querySelector('.menu-item-danger').click();
 
 setTimeout(function () {
   document.querySelector('.btn-danger').click();
-}, 2000);
+}, 500);
